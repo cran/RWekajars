@@ -1,0 +1,25 @@
+The developer version releases available from 
+
+  http://www.cs.waikato.ac.nz/ml/weka/index_downloading.html
+
+are all compiled for Java 1.6.
+
+However, for Mac OS X Java 1.6 is only available for 64 bits, and in
+particular the CRAN Mac OS X build/check system is 32 bits.
+
+Hence, recompile weka.jar for Java 1.5.
+
+To do so, go to ~/src/org/weka/weka.
+
+Ensure that build.xml has
+
+  source="1.5" target="1.5"
+
+in its compile target.
+
+Then do
+
+  ant compile
+  ant exejar
+
+and use dist/weka.jar for RWekajars/inst/java/weka.jar.  
