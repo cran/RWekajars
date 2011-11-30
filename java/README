@@ -9,7 +9,9 @@ particular the CRAN Mac OS X build/check system is 32 bits.
 
 Hence, recompile weka.jar for Java 1.5.
 
-To do so, go to ~/src/org/weka/weka.
+To do so, go to ~/src/org/weka/weka or alternatively, grab a Weka
+Developer version release .zip for Linux, unpack the .zip itself and
+then unpack the thus obtained .zip with the sources.
 
 Ensure that build.xml has
 
