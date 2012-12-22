@@ -19,6 +19,10 @@ Ensure that build.xml has
 
 in its compile target.
 
+As long as the WPM() code uses the WekaPackageManager main() method,
+ensure in src/main/java/weka/core/WekaPackageManager.java that this does
+not call System.exit(0) [added in c8982].
+
 Then do
 
   ant compile
