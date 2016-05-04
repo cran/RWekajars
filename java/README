@@ -1,3 +1,6 @@
+Releases can be downloaded from
+<http://www.cs.waikato.ac.nz/ml/weka/downloading.html>.
+
 As long as the WPM() code uses the WekaPackageManager main() method,
 ensure in src/main/java/weka/core/WekaPackageManager.java that this does
 not call System.exit(0) [added in c8982].
