@@ -1,8 +1,8 @@
-f0ed58cbc5b080fc5c0158c5ce046850 *DESCRIPTION
+59d4664cae5895878c0334e5a6a2a2a1 *DESCRIPTION
 9eb79ecaf6c8d3272c9e21607bb11c01 *NAMESPACE
 beea946ac08878a365de9fe6004a155f *R/onLoad.R
 08a8e5dbc68416b3992a101318e3fe13 *configure
-eba46e3d3ec2d9c14b501f425dfd52b9 *inst/java/weka.jar
+88df1d6432dbcc13737df5c620ee858d *inst/java/weka.jar
 5a19d3c1de61adbaf430404f08e8be86 *java/Makefile
 d15c1316b277c5eef84424b44b1b5d3f *java/README
 b2f00fd4d3162f7345ca6a14db8bd1df *tools/getsp.class
