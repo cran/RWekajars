@@ -1,9 +1,12 @@
-59d4664cae5895878c0334e5a6a2a2a1 *DESCRIPTION
+73328043abc9b0fbd7357fbb9a6b26c9 *DESCRIPTION
 9eb79ecaf6c8d3272c9e21607bb11c01 *NAMESPACE
 beea946ac08878a365de9fe6004a155f *R/onLoad.R
 08a8e5dbc68416b3992a101318e3fe13 *configure
-88df1d6432dbcc13737df5c620ee858d *inst/java/weka.jar
-5a19d3c1de61adbaf430404f08e8be86 *java/Makefile
-d15c1316b277c5eef84424b44b1b5d3f *java/README
+83d82dd480da2aeba6429e746453ec0b *inst/java/arpack_combined_all.jar
+ab845840ad73fa2ec1a5025a7c48b97e *inst/java/core.jar
+77fff3dffcdaf2e88ab185078c79b983 *inst/java/mtj.jar
+81e4fed6dcfb9f4f4820b3c8c26d2eb0 *inst/java/weka.jar
+67e1eae95e34b412412a71e3a9685125 *java/Makefile
+f204424ff1445162b4c74353fbc691c9 *java/README
 b2f00fd4d3162f7345ca6a14db8bd1df *tools/getsp.class
 d98d48a1d5c1bbec93a7a584509199e6 *tools/getsp.java
