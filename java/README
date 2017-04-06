@@ -1,6 +1,10 @@
 Releases can be downloaded from
 <http://www.cs.waikato.ac.nz/ml/weka/downloading.html>.
 
+*************************************************************************
+
+<OLD>
+
 This provides weka.jar files which include the following external jars
 listed below together with the URLs from which their sources can be
 obtained:
@@ -35,6 +39,7 @@ and hence build our own weka.jar from the Weka sources via
   ant exejar
 
 and use dist/weka.jar for RWekajars/inst/java/weka.jar.
+</OLD>
 
 <OLD>
 32-bit OS X only had 1.5, but this is no longer supported:

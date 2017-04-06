@@ -12,7 +12,6 @@ all: ../inst/java/weka.jar
 ##   using static entries in weka/gui/GenericObjectEditor.props rather
 ##   than dynamic class discovery
 ## to stdout which in turn makes everyone else unhappy ...
-## Also extract and delete top-level external jars.
 ../inst/java/weka.jar: FORCE
 	@echo -n "updating $@ ..."
 	@(pfile="weka/gui/GenericPropertiesCreator.props"; \
@@ -22,9 +21,10 @@ all: ../inst/java/weka.jar
 	    > $${pfile}; \
 	  $(JAR) uf $@ $${pfile} ; \
 	  rm -rf weka)
-	@(cd ../inst/java && \
-	  jar xf weka.jar $(EXTERNALS) && \
-	  zip -dq weka.jar $(EXTERNALS))
+## Also extract and delete top-level external jars.
+##	@(cd ../inst/java && \
+##	  jar xf weka.jar $(EXTERNALS) && \
+##	  zip -dq weka.jar $(EXTERNALS))
 	@echo " done"
 ## </ARGH>
 
