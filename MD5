@@ -1,7 +1,7 @@
-e1792a35ef2ef2930740c7e13b832d95 *DESCRIPTION
+6c90aa479ef611af2c01e05e1c72ebc0 *DESCRIPTION
 9eb79ecaf6c8d3272c9e21607bb11c01 *NAMESPACE
-beea946ac08878a365de9fe6004a155f *R/onLoad.R
-8a27ea3c8aeeacf1f882f67b2d0af683 *configure
+9ed1643fbda744ab1033ee715990e1ac *R/init.R
+73d857f267b11049267eb158dc08a48c *configure
 1ba06034cb2c36871a39ce5c4c1d5537 *inst/java/weka.jar
 ca3178baf28bd6776e04f3c614c0111e *java/Makefile
 b0bdc57f0e838ce2ccf56e110061aa02 *java/README
